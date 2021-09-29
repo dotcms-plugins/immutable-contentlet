@@ -1,0 +1,45 @@
+{
+  "modelVersion" : "2",
+  "title" : "Title1",
+  "iNode" : "v2id-1234",
+  "identifier" : "identifier",
+  "contentType" : "contentType",
+  "modDate" : "2021-09-25T15:55:58.689Z",
+  "baseType" : "baseType",
+  "showOnMenu" : true,
+  "modUser" : "modUser",
+  "languageId" : "languageId",
+  "editState" : "editState",
+  "friendlyName" : "friendlyName",
+  "tags" : [ "tag1", "tag2" ],
+  "fields" : {
+    "field1" : {
+      "value" : 123.33,
+      "type" : "float"
+    },
+    "field2" : {
+      "value" : "mytext",
+      "type" : "text"
+    },
+    "field3" : {
+      "value" : "mytext",
+      "customFieldData" : "test",
+      "type" : "custom-type"
+    },
+    "field4" : {
+      "value" : [ {
+        "value" : "blah",
+        "type" : "text"
+      } ],
+      "type" : "list-type"
+    },
+    "field5" : {
+      "value" : 12345567775,
+      "type" : "long"
+    },
+    "field6" : {
+      "value" : "2021-09-24T21:09:34.834160Z",
+      "type" : "date-time"
+    }
+  }
+}
